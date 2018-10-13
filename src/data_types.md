@@ -1,4 +1,4 @@
-#Data Types
+# Data Types
 Even though variables do not need to have their types defined for primitive data, different types still exist, and variables need their type defined if you are going to assign them an object and you plan to use the variable to access some of the object's properties.
 
 ## Primitive types

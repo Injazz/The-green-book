@@ -11,7 +11,7 @@ A key difference in other languages like C is that primitive variables don't nee
 
 Without any sort of error. Even though this will work with any sort of var type, we will see futher on that it can cause issues when our variables hold objects and we try to access its methods or such, but we will expand on this later.
 
-# Type casting
+## Type casting
 As we said previously, variables can hold primitive data such as numbers, letters, booleans, but they can also hold objects, which is fundamental for an Object Oriented language like DM. Say you have an `/obj/honk` object, you're fully able to assign it to a type-less var as we did before with our string and number, but you won't be able to actually access any of the object's data. For now, just remember that the syntax for typecasting is:
 
     var/your/type/varname = initialValue
