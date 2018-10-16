@@ -4,8 +4,14 @@ Open Dream Maker and let's write your first DM program. To do so, you must creat
 ## Printing Hello World
 Once the file is completely empty, try to compile this snippet and run it as we said in the previous chapter (CTRL+K and `Build`, `Run`):
 
+```raw
     /mob/Login()
 		world << "Hello world"
+```
+```tg
+	/mob/Login()
+		to_chat(world, "Hello world")
+```
 
 Once ran, Dream Seeker will open and you will see Hello World printed on the top left of the window. Congratulations!
 ## Anatomy of a DM program
