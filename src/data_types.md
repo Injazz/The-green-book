@@ -6,7 +6,7 @@ Primitive types are types that do not need variables to be typecasted anyhow. Th
 
 - Numeric values `1, 24.3, 3.14`
 - Strings `"a", "abc"`
-- Booleans `TRUE, FALSE`
+- Booleans `TRUE, FALSE` (which aren't anything different than the numeric value `1` and `0`)
 - Null `null`
 
 You can simply assign them to your variable, and access the variable content. In particular, notice how lists aren't considered a primitive type. Even though assigning a list to a var won't cause an error normally, it's bad practice to not typecast it, since a list is essentially an object, and you won't be able to access list methods and properties on a non-typecasted list.
