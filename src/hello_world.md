@@ -10,6 +10,7 @@ Once the file is completely empty, try to compile this snippet and run it as we 
 ```
 ```tg
 	/mob/Login()
+		..()
 		to_chat(world, "Hello world")
 ```
 
