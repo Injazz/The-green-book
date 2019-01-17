@@ -2,7 +2,7 @@
 Dream Maker has several object types already implemented for you to use. You can straight redefine existing object's variables and procs, as well as you can inherit this type with your own object and set inherited variables and procs as you please, or you can add additional variables and procs straight to built-in object types (such behavior in other languages called [monkey patch](https://en.wikipedia.org/wiki/Monkey_patch)! Let's see how it works on following example:
 
 ```dm
-\\ atom is a built-in type, but you can define it!
+//atom is a built-in type, but you can define it!
 /atom 
 	layer = 1
 	//var/layer = 1 //WON'T COMPILE - duplicate definition! Uncomment this to try it yourself!
