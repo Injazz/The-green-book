@@ -1,5 +1,7 @@
 # Built-in Object Types
-Dream Maker has several object types already defined right in the engine. You can redefine built-in object's variables and procs, also you can inherit built-in type with your own object (which you're gonna do a lot) and set inherited variables and procs as you please. Finally, you can add additional variables and procs straight to built-in object types (such behavior in other languages called [monkey patch](https://en.wikipedia.org/wiki/Monkey_patch)). Let's see how it works on the following example:
+Dream Maker has several object types already defined right in the engine. You can redefine built-in object's variables and procs, also you can inherit built-in type with your own object (which you're gonna do a lot) and set inherited variables and procs as you please. Finally, you can add additional variables and procs straight to built-in object types (such behavior in other languages called [monkey patch](https://en.wikipedia.org/wiki/Monkey_patch)). 
+
+Let's see how it works on the following example:
 
 ```dm
 //atom is a built-in type, but you can define it!
@@ -35,4 +37,5 @@ Now let's use the same proc we used in our `Hello World` program and see some in
 ```
 
 Notice that `/mob` is a built-in object, which inherits `/atom` (we'll talk about this inheritance in the next chapter) so it can use `loc` variable, which actually belongs to `/atom`! Also you probably understand now that `Login()` is a built-in proc for `/mob`, right? Right.
+
 Full list of built-in object types with var and proc definitions can be found [here](http://www.byond.com/docs/ref/index.html).
