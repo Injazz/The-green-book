@@ -5,6 +5,7 @@
 	- [Installation](./installation.md)
 	- [Hello World](./hello_world.md)
 - [Basic Concepts](./basic_concepts.md)
+	- [Comments](./comments.md)
 	- [Variables](./variables.md)
 	- [Data Types](./data_types.md)
 		- [Built-in Types](./built_in_types.md)
