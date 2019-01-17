@@ -34,4 +34,5 @@ Now let's use the same proc we used in our `Hello World` program and see some in
 	world << A.invisibility //Even though there is no definition for invisibility in our code, it would display 0, since invisibility is also a built-in variable and has a default value of 0!
 ```
 
-Notice that `/mob` is a built-in object, which inherits `/atom` (we'll talk about this inheritance later) so therefore it can use `loc` variable, which actually belongs to `/atom`! Also you probably understand now that `Login()` is a built-in proc for `/mob`, right?
+Notice that `/mob` is a built-in object, which inherits `/atom` (we'll talk about this inheritance in the next chapter) so it can use `loc` variable, which actually belongs to `/atom`! Also you probably understand now that `Login()` is a built-in proc for `/mob`, right? Right.
+Full list of built-in object types with var and proc definitions can be found [here](http://www.byond.com/docs/ref/index.html).
