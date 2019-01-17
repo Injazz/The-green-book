@@ -1,5 +1,5 @@
 # Inheritance of built-in types
-Even though it's not explicitly shown, but most built-in types uses inheritance to derive some procs and variables from each other! There are 3 built-in types that are used as parents for everything else.
+Even though it's not explicitly shown, but most built-in types uses inheritance to derive procs and variables from each other! There are 3 built-in types that are used as parents for everything else.
 
 ## `/atom`
 The /atom object type is the parent of all mappable objects in the game. The types `/area`, `/turf`, `/obj`, and `/mob` are all derived from `/atom`. You should not create instances of `/atom` directly but should use `/area`, `/turf`, `/obj`, and `/mob` for actual objects. The `/atom` object type exists for the purpose of defining variables or procedures that are shared by all of the other "physical" objects. These are also the only objects for which verbs may be accessible to the user. 
