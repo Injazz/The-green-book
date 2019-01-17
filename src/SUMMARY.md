@@ -8,4 +8,4 @@
 	- [Variables](./variables.md)
 	- [Data Types](./data_types.md)
 		- [Built-in Types](./built_in_types.md)
-		-[Inheritance of built-in types](./built_in_types_inheritance.md)
+			- [Inheritance of built-in types](./built_in_types_inheritance.md)
